@@ -1,20 +1,13 @@
-#search {
+#input {
   margin-right: 15px;
-}
-
-.centerDiv {
-  text-align: center;
 }
 
 .btn-primary {
   margin: 10px;
 }
 
-#favList {
+#favList h4 {
   text-align: center;
-}
-
-#favList, h4 {
   cursor: pointer;
   margin: 20px;
 }
