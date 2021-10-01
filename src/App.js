@@ -9,12 +9,10 @@ function App() {
   const [symbol, setSymbol] = useState('');
 
   const changeSearchSymbol = () => {
-    setSymbol('');
     setSymbol(document.getElementById("input").value);
   }
 
   const searchByFavSymbol = (element) => {
-    setSymbol('');
     setSymbol(element.currentTarget.id);
   }
 
